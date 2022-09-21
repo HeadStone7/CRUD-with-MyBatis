@@ -1,6 +1,6 @@
 # CRUD-with-MyBatis
 
-You need to create a database named schooldb with student as table 
+You need to create a database named Schooldb :
 
 --Create DATABASE SchoolDB;
 
@@ -60,3 +60,5 @@ insert into Score values(1,2,82,80);
 insert into Score values(1,1,80,81);
 insert into Score values(2,2,78,75);
 insert into Score values(2,3,87,86);
+
+Note: Don't forget to set your own Mysql credentials in mybatis-config.xml file
